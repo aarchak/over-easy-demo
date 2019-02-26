@@ -1,0 +1,35 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <table bgcolor="#FFFFFF" style="margin: 0px;" border="0px">
+      <tr>
+        <td>
+<img src="{{site.baseurl}}/assets/img/Overeasy-yellow-small.png" alt="Overeasy logo">
+          <p style="font-size: small; margin: -20px 20px -20px 20px">Effortless excellence in food safety</p>
+        </td>
+        <td style="text-align: right;">
+          Hi Alice! &nbsp &nbsp   
+          <img src="{{site.baseurl}}/assets/img/user.jpeg" alt="Overeasy logo" style="height: 50px">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right;">
+          <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">Insights</a></li>
+          <li><a href="#contact">Inspection Reports</a></li>
+          <li><a href="#about">Food Worker Cards</a></li>
+        </ul>
+        </td>
+        
+      </tr>
+    </table>
+    
+
+    
+    
+  </div>
+</header>

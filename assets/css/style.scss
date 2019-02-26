@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+
+  .start-section::after {
+	content: "";
+	background: url(/assets/img/food-bg.jpg);
+	opacity: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+	}
+
+.home {
+	background: rgba(255, 255, 255, 0.6);
+	margin: -40px 0px 0px 0px;
+	height: 600px;
+	width: 100%;
+
+}
+
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
