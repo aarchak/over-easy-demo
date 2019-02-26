@@ -41,3 +41,9 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-maps
+
+maps:
+  google:
+    api_key: AIzaSyCKAnTTZmqElWcDJZswBRwPT12aaYslErw
+
